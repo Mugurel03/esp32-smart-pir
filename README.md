@@ -118,12 +118,6 @@ The alarm's armed/disarmed state can be toggled conveniently through both the de
 
 ---
 
-## License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
-
----
-
 ## Acknowledgments
 
 * Thanks to the ESP32 community and Arduino developers for their extensive libraries and support.
