@@ -31,6 +31,20 @@ This project implements a smart movement alarm system using an ESP32 microcontro
 
 ---
 
+### Wiring
+
+| ESP32 Pin | Component Pin    | Description           |
+| :-------- | :--------------- | :-------------------- |
+| GPIO 15   | PIR Sensor (OUT) | Motion sensor input   |
+| GPIO 25   | Green LED (+)    | Green LED control     |
+| GPIO 26   | Red LED (+)      | Red LED control       |
+| GPIO 4    | Buzzer (+)       | Buzzer control        |
+| GPIO 14   | Push Button      | Alarm toggle button   |
+| GND       | All Components   | Common ground         |
+| 3.3V      | PIR Sensor (VCC) | PIR sensor power      |
+
+---
+
 ## Software Requirements
 
 * **Arduino IDE:** With ESP32 board support installed.
