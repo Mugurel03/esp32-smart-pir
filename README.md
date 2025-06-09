@@ -19,7 +19,7 @@ This project implements a smart movement alarm system using an ESP32 microcontro
     * **Red LED & Buzzer:** Activates (blinks/sounds) when motion is detected and the alarm is triggered.
 * **Physical Button Control:** A debounced push button allows for local arming and disarming of the alarm.
 
-<img src="pir-web-ui.jpg" alt="Web UI" width="400"/>
+<img src="pir-web-ui.png" alt="Web UI" width="400"/>
 ---
 
 ## Hardware Requirements
@@ -82,7 +82,7 @@ This project implements a smart movement alarm system using an ESP32 microcontro
         const char* telegramBotToken = "YOUR_BOT_TOKEN";
         const char* chatID = "YOUR_CHAT_ID";
         ```
-<img src="pir-notification.jpg" alt="Telegram Bot" width="400"/>
+<img src="pir-notification.png" alt="Telegram Bot" width="400"/>
 
 4.  **Upload to ESP32:** Compile and upload the code to your ESP32 board using the Arduino IDE.
 5.  **Monitor Serial Output:** Open the **Serial Monitor** in Arduino IDE (set to 115200 baud). It will display the ESP32's connection status and the assigned IP address.
